@@ -345,27 +345,3 @@ def convert_time_to_minutes(time_string):
 
 if __name__ == "__main__":
     w1 = WorkoutLog(email, password, '07/09')
-    # print(strava_oauth())
-    # read_workouts()
-#
-
-
-    # res_dict = parse_strava_text_summary('Aviron mar. 28/07/2020 Kodak’s slow and reluctant transition to digital photography led to its decline 1:00:00 15 200 m 0 pi')
-    # pp = pprint.PrettyPrinter()
-    # pp.pprint(res_dict)
-    # #
-    # strava_text = 'Aviron mar. 28/07/2020 Kodak’s slow and reluctant transition to digital photography led to its decline 1:00:00 15 200 m 0 pi'
-    # print(strava_text)
-    # pp.pprint((parse_strava_text_summary(strava_text)))
-
-    # print(parse_strava_text_summary('Course sam. 01/08/2020 SpaceX Crew Dragon carrying NASA astronauts to depart space station today 56:55 5,61 mi 412 pi'))
-    # print(is_a_time('sam.'))
-
-    # print(is_a_time('56:55'))
-    # todays_date = datetime.datetime.today().strftime('%Y-%m-%d')
-    # print(todays_date)
-
-    # print(current_date_in_collected('08/01', ['01/08/2020', {'type': 'Aviron', 'name': ' There are currently 40 species of dolphin', 'date': '08/01', 'duration': 80.0}]))
-
-
-
